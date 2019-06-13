@@ -13,8 +13,8 @@ steps:
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
-    publishJUnitResults: false
-    tasks: 'assembleRelease'
+    publishJUnitResults: true
+    tasks: 'test'
 
 - task: CopyFiles@2
   inputs:
